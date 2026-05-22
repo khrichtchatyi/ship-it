@@ -1,0 +1,20 @@
+{
+  "author": {
+    "email": "max@khrichtchatyi.com",
+    "name": "Maxim Khrichtchatyi"
+  },
+  "description": "Ships work already on disk: commits with a Conventional Commits message, then pushes the branch and opens a pull request.",
+  "homepage": "https://github.com/khrichtchatyi/ship-it",
+  "keywords": [
+    "skills",
+    "git",
+    "github",
+    "commits",
+    "pull-requests",
+    "automation"
+  ],
+  "license": "MIT",
+  "name": "ship-it",
+  "repository": "https://github.com/khrichtchatyi/ship-it",
+  "version": "0.1.0"
+}

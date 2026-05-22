@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "ship-it",
+  "owner": {
+    "email": "max@khrichtchatyi.com",
+    "name": "Maxim Khrichtchatyi"
+  },
+  "plugins": [
+    {
+      "name": "ship-it",
+      "source": "./"
+    }
+  ]
+}
