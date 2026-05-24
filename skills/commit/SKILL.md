@@ -17,6 +17,17 @@ Refuse to run when the directory is not a Git working
 Refuse to run when the branch has no commits yet and
   the user did not ask for an initial commit.
 
+Refuse to run when the current branch is `main`,
+  `master`, `develop`, `trunk`, or matches the remote's
+  default branch from
+  `git symbolic-ref --short refs/remotes/origin/HEAD` —
+  commits belong on feature branches, not protected
+  defaults.
+
+Override the default-branch refusal only when the user
+  said in plain words to commit directly to that
+  branch.
+
 Trust the user — the changes in the working tree exist
   on purpose, and this skill only records them.
 
