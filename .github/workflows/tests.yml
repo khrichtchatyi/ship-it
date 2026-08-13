@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: MIT
 ---
 # yamllint disable rule:line-length
-name: actionlint
+name: tests
 'on':
   push:
     branches:
@@ -11,13 +11,9 @@ name: actionlint
     branches:
       - main
 jobs:
-  actionlint:
+  install-sh:
     timeout-minutes: 15
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v6
-      - id: get_actionlint
-        run: bash <(curl https://raw.githubusercontent.com/rhysd/actionlint/main/scripts/download-actionlint.bash)
-        shell: bash
-      - run: ${{ steps.get_actionlint.outputs.executable }} -color
-        shell: bash
+      - run: bash tests/test_install.sh

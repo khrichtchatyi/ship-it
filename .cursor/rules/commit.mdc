@@ -1,0 +1,6 @@
+---
+description: Commit, stage, or record changes in the working tree with one Conventional Commits message. Use when the user asks to commit or stage changes.
+alwaysApply: false
+---
+
+The authoritative instructions for this skill live in [`skills/commit/SKILL.md`](../../skills/commit/SKILL.md). Read that file in full and follow it when the user asks to commit changes; do not improvise a shortened workflow.

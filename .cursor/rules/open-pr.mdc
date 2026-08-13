@@ -1,0 +1,6 @@
+---
+description: Open a pull request for the current branch on GitHub. Use when the user asks to open, create, or submit a PR, or to push a branch for review.
+alwaysApply: false
+---
+
+The authoritative instructions for this skill live in [`skills/open-pr/SKILL.md`](../../skills/open-pr/SKILL.md). Read that file in full and follow it when the user asks to open a pull request; do not improvise a shortened workflow.

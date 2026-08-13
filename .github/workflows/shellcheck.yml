@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: MIT
 ---
 # yamllint disable rule:line-length
-name: actionlint
+name: shellcheck
 'on':
   push:
     branches:
@@ -11,13 +11,10 @@ name: actionlint
     branches:
       - main
 jobs:
-  actionlint:
+  shellcheck:
     timeout-minutes: 15
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v6
-      - id: get_actionlint
-        run: bash <(curl https://raw.githubusercontent.com/rhysd/actionlint/main/scripts/download-actionlint.bash)
-        shell: bash
-      - run: ${{ steps.get_actionlint.outputs.executable }} -color
-        shell: bash
+      - run: sudo apt-get update && sudo apt-get install -y shellcheck
+      - run: shellcheck install.sh tests/*.sh
