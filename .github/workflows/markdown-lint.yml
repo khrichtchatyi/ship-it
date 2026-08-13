@@ -6,10 +6,10 @@ name: markdown-lint
 'on':
   push:
     branches:
-      - master
+      - main
   pull_request:
     branches:
-      - master
+      - main
 jobs:
   markdown-lint:
     timeout-minutes: 15

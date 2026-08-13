@@ -161,9 +161,9 @@ Never put the issue number in the subject — Conventional
   there.
 
 Never add a `Co-authored-by:` trailer naming Claude,
-  Claude Code, Anthropic, or any coding agent — the
-  user authors the commit and crediting a tool
-  misleads readers.
+  Claude Code, ChatGPT, GPT, Gemini, Anthropic, OpenAI,
+  or any coding agent or LLM — the user authors the
+  commit and crediting a tool misleads readers.
 
 Never add promotional trailers, signatures, emoji, or
   `Generated with ...` lines — the commit log records

@@ -133,8 +133,9 @@ Use your own words, write in plain conversational
   openings, and buzzword strings.
 
 Do not add AI markers to the pull request or the
-  comment: no mention of Claude, ChatGPT, an LLM, or
-  any model name; no `Generated with ...` footer; no
+  comment: no mention of Claude, Claude Code, ChatGPT,
+  GPT, Gemini, Anthropic, OpenAI, an LLM, or any model
+  name; no `Generated with ...` footer; no
   `Co-Authored-By` AI trailer; no robot emoji; no
   disclosure that an assistant wrote the text.
 

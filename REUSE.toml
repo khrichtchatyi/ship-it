@@ -5,10 +5,12 @@ version = 1
 [[annotations]]
 path = [
     "**/*.md",
+    "**/*.mdc",
     "**/*.txt",
     "renovate.json",
     ".claude-plugin/marketplace.json",
-    ".claude-plugin/plugin.json"
+    ".claude-plugin/plugin.json",
+    ".markdownlint.json"
 ]
 precedence = "override"
 SPDX-FileCopyrightText = "Copyright (c) 2026 Maxim Khrichtchatyi"
